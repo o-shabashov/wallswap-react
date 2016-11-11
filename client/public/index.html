@@ -72,6 +72,35 @@
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body data-spy="scroll" data-offset="80">
+
 <div id="root"></div>
+
+<footer id="footer">
+    <div class="footer-btm">
+        <div class="copyright text-center">
+            Copyright &copy; 2016, Wallswap
+        </div>
+    </div>
+    <a href="#" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
+</footer>
 </body>
+
+<!--Google analytics-->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-59187869-2', 'auto');
+    ga('send', 'pageview');
+</script>
+<!--/Google analytics-->
+
 </html>
