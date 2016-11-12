@@ -1,0 +1,13 @@
+{
+  "name": "wallswap-react-crawl",
+  "version": "0.0.1",
+  "description": "Scrape wallheaven",
+  "main": "server.js",
+  "author": "Oleg Shabashov",
+  "dependencies": {
+    "express": "latest",
+    "request": "latest",
+    "cheerio": "latest",
+    "mysql": "^2.11.1"
+  }
+}
