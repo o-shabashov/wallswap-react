@@ -18,23 +18,19 @@ The project is just for fun and test programming skills. It consists of two part
 ```bash
 export DROPBOX_CLIENT_ID="APP_KEY_HERE" && export DROPBOX_CLIENT_SECRET="APP_SECRET_HERE" 
 ```
-
 3. Redirect URL for Dropbox callback:
 ```
 http://localhost:8080/oauth2callback
 ```
-
 4. Install node.js dependencies:
 ```bash
 cd wallswap-react
 npm i && cd client && npm i && cd ..
 ```
-
 5. Run server:
 ```bash
 npm start
 ```
-
 6. Run crawl once a week:
 ```bash
 cd crawl
