@@ -8,7 +8,7 @@ const connection = mysql.createConnection({
   database: 'wallswap'
 });
 
-var url = 'https://alpha.wallhaven.cc/search?categories=101&purity=110&sorting=random&order=desc';
+var url = 'https://alpha.wallhaven.cc/search?categories=101&purity=100&sorting=random&order=desc';
 
 request(url, function (error, response, html) {
   if (error) throw error;
