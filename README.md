@@ -13,25 +13,25 @@ The project is just for fun and test programming skills. It consists of two part
 2. Saves list of wallpapers in the database;
 
 ## Installation
-1. Create MySQL database `wallswap` and import `wallswap.sql`
-2. Create [Dropbox App](https://www.dropbox.com/developers/apps/create) and set environment variables:
+* Create MySQL database `wallswap` and import `wallswap.sql`
+* Create [Dropbox App](https://www.dropbox.com/developers/apps/create) and set environment variables:
 ```bash
 export DROPBOX_CLIENT_ID="APP_KEY_HERE" && export DROPBOX_CLIENT_SECRET="APP_SECRET_HERE" 
 ```
-3. Redirect URL for Dropbox callback:
+* Redirect URL for Dropbox callback:
 ```
 http://localhost:8080/oauth2callback
 ```
-4. Install node.js dependencies:
+* Install node.js dependencies:
 ```bash
 cd wallswap-react
 npm i && cd client && npm i && cd ..
 ```
-5. Run server:
+* Run server:
 ```bash
 npm start
 ```
-6. Run crawl once a week:
+* Run crawl once a week:
 ```bash
 cd crawl
 npm start
