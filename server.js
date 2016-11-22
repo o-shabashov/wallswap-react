@@ -15,10 +15,10 @@ const config = {
   secret  : process.env.DROPBOX_CLIENT_SECRET
 };
 const dropbox = new (require('dropbox'))(config);
-const redirectUri = 'http://localhost:3000/oauth2callback';
+const redirectUri = 'http://localhost:8080/oauth2callback';
 require('dropbox-client-oauth2');
 
-app.set('port', (process.env.PORT || 3001));
+app.set('port', (process.env.PORT || 8081));
 
 // Express only serves static assets in production
 if (process.env.NODE_ENV === 'production') {

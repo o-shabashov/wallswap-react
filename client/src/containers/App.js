@@ -21,7 +21,7 @@ export default class App extends Component {
         </section>
 
         <div className='center'>
-          <a href='https://dropbox.com/oauth2/authorize?client_id=wuig9hcym6qzfei&response_type=code&redirect_uri=http://localhost:3000/oauth2callback'>
+          <a href='https://dropbox.com/oauth2/authorize?client_id=wuig9hcym6qzfei&response_type=code&redirect_uri=http://localhost:8080/oauth2callback'>
             <img src='/images/wallswap-02.png' alt='' width='250'/>
           </a>
         </div>
